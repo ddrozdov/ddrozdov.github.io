@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/cover.css">
+</head>
+<body>
+	<div class="site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<div class="masthead clearfix">
+					<div class="inner">
+						<h3 class="masthead-brand">{{ site.title }}</h3>
+						<nav>
+							<ul class="nav masthead-nav">
+								<li class="active"><a class="nav-link active" href="/">Home</a></li>
+								<li><a class="nav-link" href="/about">About</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<div class="inner cover">
+
+					{{ content }}
+
+				</div>
+
+				<div class="mastfoot">
+					<div class="inner">
+						<p><a href="https://github.com/ddrozdov">github.com/ddrozdov</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="//code.jquery.com/jquery-3.1.0.min.js" crossorigin="anonymous"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
